@@ -1,14 +1,5 @@
-import 'package:avacado_task/common/constants/assets.dart';
-import 'package:avacado_task/common/constants/colors.dart';
-import 'package:avacado_task/common/utils/extensions/mediaquery_extension.dart';
-import 'package:avacado_task/common/utils/extensions/space_extension.dart';
-import 'package:avacado_task/common/utils/extensions/string_extension.dart';
-import 'package:avacado_task/common/utils/url_utils.dart';
-import 'package:avacado_task/common/widgets/custom_appbar.dart';
-import 'package:avacado_task/common/widgets/custom_transition_widget.dart';
-import 'package:avacado_task/common/widgets/svg_viewer.dart';
-import 'package:avacado_task/src/home/model/post_model.dart';
-import 'package:avacado_task/src/home/widgets/channel_button.dart';
+import 'package:avacado_task/common/common.dart';
+import 'package:avacado_task/src/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -32,7 +23,8 @@ class PostDetailScreen extends StatefulWidget {
   State<PostDetailScreen> createState() => _PostDetailScreenState();
 }
 
-class _PostDetailScreenState extends State<PostDetailScreen> with SingleTickerProviderStateMixin{
+class _PostDetailScreenState extends State<PostDetailScreen>
+    with SingleTickerProviderStateMixin {
   late YoutubePlayerController _controller;
   final videoUrl = 'https://www.youtube.com/watch?v=HPJKxAhLw5I';
 

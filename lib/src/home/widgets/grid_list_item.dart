@@ -1,11 +1,5 @@
-import 'package:avacado_task/common/constants/assets.dart';
-import 'package:avacado_task/common/constants/colors.dart';
-import 'package:avacado_task/common/utils/extensions/mediaquery_extension.dart';
-import 'package:avacado_task/common/utils/extensions/space_extension.dart';
-import 'package:avacado_task/common/utils/extensions/string_extension.dart';
-import 'package:avacado_task/common/utils/post_utils.dart';
-import 'package:avacado_task/src/home/model/post_model.dart';
-import 'package:avacado_task/src/home/widgets/channel_button.dart';
+import 'package:avacado_task/common/common.dart';
+import 'package:avacado_task/src/home/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

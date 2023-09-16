@@ -1,5 +1,4 @@
-import 'package:avacado_task/common/utils/extensions/space_extension.dart';
-import 'package:avacado_task/common/widgets/svg_viewer.dart';
+import 'package:avacado_task/common/common.dart';
 import 'package:flutter/material.dart';
 
 class ChannelButton extends StatelessWidget {

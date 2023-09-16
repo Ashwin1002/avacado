@@ -1,5 +1,4 @@
-import 'package:avacado_task/common/constants/colors.dart';
-import 'package:avacado_task/common/constants/constant_list.dart';
+import 'package:avacado_task/common/common.dart';
 import 'package:flutter/material.dart';
 
 class HomeTabBarWidget extends StatelessWidget {
